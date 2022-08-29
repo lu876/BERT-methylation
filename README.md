@@ -13,7 +13,7 @@ This repo is the implementation of "".
 - xgboost==1.6.1
 ## Sequence of executing programs and makefiles:
 1. Run word2vec.py:
-   The program loads the methylation dataset from the folder and trains a Word2Vec network. The program will generate the file net1.pth.
+   The program loads the methylation dataset from the folder and trains a Word2Vec network. The program will generate the file "net_word2vec.pth".
 2. Run extract word.py:
    This program will read the vocabulary used during BERT training and load the pre-trained BERT framework. The program filters English characters, edits the input format, and outputs a vector corresponding to English. This file will write the output to BERT_vec.xlsx.
 3. Run compare.py:
