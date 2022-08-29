@@ -10,7 +10,7 @@ This repo is the implementation of "".
 - torch==1.10.2+cu102
 - transformers==4.17.0
 - xgboost==1.6.1
-# Sequence of executing programs and makefiles:
+## Sequence of executing programs and makefiles:
 	1. Run word2vec.py:
 		The program loads the methylation dataset from the folder and trains a Word2Vec network. The program will generate the file net1.pth.
 	2. Run extract word.py:
