@@ -1,6 +1,7 @@
 # BERT-methylation
 This repo is the implementation of "".
 # Environment dependent
+- python == 3.6
 - matplotlib==3.5.1
 - numpy==1.23.2
 - openpyxl==3.0.9
