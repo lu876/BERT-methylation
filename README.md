@@ -12,6 +12,7 @@ This repo is the implementation of "".
 - transformers==4.17.0
 - xgboost==1.6.1
 ## Sequence of executing programs and makefiles:
+Kindly follow the sequence list below to run our code.
 1. Run word2vec.py:
    The program loads the methylation dataset from the folder and trains a Word2Vec network. The program will generate the file "net_word2vec.pth".
 2. Run extract word.py:
